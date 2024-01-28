@@ -1,0 +1,115 @@
+.slide-header{
+    background-color: #4B764A;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.slide-header h1 {
+    text-align: center;
+}
+
+.slide-header h5 {
+    text-align: center;
+}
+
+.nav-tabs .nav-link {
+    color: #fff; /* Text color */
+    background-color: #4B764A; /* Background color */
+    border: 1px solid #fff; /* Border color */
+}
+
+.nav-tabs .nav-link.active {
+    color: #ffffff; /* Text color for active tab */
+    background-color: #031D02; /* Background color for active tab */
+    border-color: #fff; /* Border color for active tab */
+}
+
+.list-group-item {
+    cursor: pointer;
+    position: relative;
+}
+
+.custom-icon {
+    width: 20px; /* Adjust the width of your custom icon */
+    height: 20px; /* Adjust the height of your custom icon */
+}
+
+.arrow {
+    float: left;
+    color: black;
+}
+
+.item-heading {
+    margin-left: 10px;
+}
+
+.list-group {
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    border: none;
+}
+
+li[aria-expanded="true"] .arrow::before {
+    content: '\25BC'; /* down arrow */
+}
+
+li[aria-expanded="false"] .arrow::before {
+    content: '\25B6'; /* right arrow */
+}
+
+.card {
+    border: none;
+}
+
+.rsbor-content {
+    margin-top: 20px;
+}
+
+.photo {
+    margin-bottom: 10px;
+}
+
+.events-posters {
+    margin: auto;
+    width: 76%;
+}
+
+.sharing-zone-text {
+    margin: 10px;
+}
+
+.sharing-items {
+    margin-left: 14px;
+}
+
+.next {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.border-bottom {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #4B764A !important;
+}
+
+/* .container {
+    background-color: rgb(182, 255, 182);
+}
+
+.container .row:nth-of-type(1) div {
+    background-color: #4e9013;
+    padding: 10px 0;
+    border: 1px solid rgb(217, 217, 217);
+    color: white;
+    text-align: center;
+}
+
+.container .row:nth-of-type(2) div {
+    background-color: #902e07;
+    padding: 10px 0;
+    border: 1px solid #441180;
+    color: white;
+    text-align: center;
+} */
